@@ -33,20 +33,48 @@
             <div>
                 <ul>
                     <li>Public profile</li>
-                    <li>Account settings</li>
+                    <button id="selecionado">Account settings</button>
                     <li>Notifications</li>
                     <li>PRO Account</li>
                 </ul>
             </div>
         </div>
 
-        <div>
+        <div class="meio">
             <h2>Account settings</h2>
             <h3>Email address</h3>
-            <p>Your email address is emailis@private.com</p>
-            <p>Change</p>
-            <h3>Password</h3>
-            <p>Hide</p>
+            <p>Your email address is<span class="email">emails@private.com</span></p>
+            <p class="change">Change</p>
+            <h3 class="senha">Password</h3>
+            <p class="hide">Hide</p>
+            <div class="senhas">
+                <div class="new">
+                    <p>New password</p>
+                    <input type="text" class="password">
+                </div>
+                <div class="current">
+                    <p>Current password</p>
+                    <input type="text" class="password">
+                </div>
+            </div>
+            <div id="reset">
+                <p>Can’t remember your current password?<span class="reset">Reset your password</span></p>
+            </div>
+            <div>
+                <button class="save">Save password</button>
+            </div>
+
+            <div id="delete">
+                <h3>Delete account</h3>
+                <p>Would you like to delete your account?<br>
+                This account contains 1388 posts. Deleting your account will<br>
+                remove all the content associated with it.</p>
+                <p class="i-want">I want to delete my account</p>
+            </div>
+            <div class="linha-vertical"></div>
+            <div class="linha-horizontal-cima"></div>
+            <div class="linha-horizontal-baixo"></div>
+            
             
         </div>
     </main>
